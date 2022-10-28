@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin:0 auto;
+}
+
+body {
+  text-align:center;
+  background: #3c663c;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#fff;
+}
+
+/* LAYOUTS */
+.container {
+  min-height:100vh;
+  width:100%;
+}
+/* TYOPGRAPHY */
+
+h1 {
+  color: goldenrod;
+  font-size:40px;
+}
+
+#message-el {
+  font-style:italic;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+
+p {
+  font-weight:bold;
+  margin-bottom:20px;
+  font-size:24px;
+}
+
+/* BUTTONS */
+.start-game-btn,
+.new-card-btn {
+  width:200px;
+  background-color: goldenrod;
+  color:#3c663c;
+  border:none;
+  padding:10px 0 10px 0;
+  font-size:20px;
+  font-weight:bold;
+  border-radius:8px;
+  margin-bottom:5px;
+  cursor:pointer;
+  transition:200ms;
+}
+
+.start-game-btn:hover,
+.new-card-btn:hover {
+  background-color: #549054;
+  color:rgb(236, 223, 188);
+}
+
+/* MEDIA QUERY */
